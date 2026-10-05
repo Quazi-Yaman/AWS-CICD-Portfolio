@@ -16,7 +16,7 @@ def test_index_contains_project_title():
 
     content = index_file.read_text(encoding="utf-8")
 
-    assert "THIS SHOULD FAIL" in content
+    assert "AWS Projects Dashboard" in content
 
 
 def test_index_contains_cicd_project():
